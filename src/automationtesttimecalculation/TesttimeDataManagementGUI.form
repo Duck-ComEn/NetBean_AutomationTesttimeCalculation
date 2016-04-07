@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="alwaysOnTop" type="boolean" value="true"/>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Default Cursor"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosed" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosed"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="TitleProgram" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="labelH_status" min="-2" pref="110" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="label_Status" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="labelH_Configuration" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="labelH_status1" min="-2" pref="110" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="label_excTime" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="TitleProgram" min="-2" pref="28" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="label_Status" max="32767" attributes="0"/>
+                  <Component id="labelH_status" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelH_status1" alignment="3" max="32767" attributes="0"/>
+                  <Component id="label_excTime" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Component id="labelH_Configuration" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="TitleProgram">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/automationtesttimecalculation/download.jpg"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Java:   Testtime Data Management"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelH_Configuration">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Configuration:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelH_status">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Status:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label_Status">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="15" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="default status."/>
+      </Properties>
+      <Events>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="label_StatusPropertyChange"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e5" green="e5" red="e8" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="labelH_MasterScript" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ExecuteScript" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_BatchMasterSPSS1" linkSize="3" alignment="0" max="32767" attributes="0"/>
+                      <Component id="labelH_Product2" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ResultAll1" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ResultByTestCode1" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ResultAll" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ResultByTestCode" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_BatchMasterSPSS2" linkSize="3" alignment="0" min="-2" pref="118" max="-2" attributes="0"/>
+                      <Component id="labelH_BatchExecuteSPSS2" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ResultAll2" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ResultByTestCode2" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ExecuteScript2" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_BatchExecuteSPSS" alignment="0" min="-2" pref="116" max="-2" attributes="0"/>
+                      <Component id="labelH_Product" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_BatchMasterSPSS" alignment="0" max="32767" attributes="0"/>
+                      <Component id="labelH_BatchExecuteSPSS1" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_Product1" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_Calendar" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ExecuteScript1" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_MainDIR" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_LastExecuteDate" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="TextField_SPSSPortName" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_MasterScript" linkSize="1" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_ExecuteScript" linkSize="1" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_SPSSPassword" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_ResultAll" linkSize="1" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_ResultByTestCode" linkSize="1" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_DBName" linkSize="5" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_DBPassword" linkSize="5" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_DBHostName" linkSize="5" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_DBUsername" linkSize="5" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_DBPortName" linkSize="5" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_BatchExecuteSPSS" linkSize="1" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_Product" linkSize="1" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_BatchMasterSPSS" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_SPSSLogFile" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_Calendar" linkSize="1" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_SPSSHostName" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_SPSSUserName" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_SPSSScriptFile" linkSize="5" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_LastExecuteDate" linkSize="1" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_MainDIR" linkSize="1" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                      <Component id="TextField_DBTableName" linkSize="5" alignment="1" min="-2" pref="333" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelH_MainDIR" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TextField_MainDIR" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelH_LastExecuteDate" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TextField_LastExecuteDate" linkSize="2" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelH_Calendar" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TextField_Calendar" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_MasterScript" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_MasterScript" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_ExecuteScript" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ExecuteScript" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_BatchMasterSPSS" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_BatchMasterSPSS" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_BatchExecuteSPSS" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_BatchExecuteSPSS" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_ResultAll" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ResultAll" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_ResultByTestCode" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ResultByTestCode" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_Product" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_Product" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_SPSSHostName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ExecuteScript1" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_SPSSPortName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_BatchMasterSPSS1" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_SPSSUserName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_BatchExecuteSPSS1" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_SPSSPassword" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ResultAll1" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_SPSSLogFile" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ResultByTestCode1" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_SPSSScriptFile" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_Product1" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_DBHostName" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ExecuteScript2" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_DBPortName" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_BatchMasterSPSS2" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_DBUsername" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_BatchExecuteSPSS2" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_DBPassword" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ResultAll2" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_DBName" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_ResultByTestCode2" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TextField_DBTableName" linkSize="6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelH_Product2" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="labelH_MainDIR">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="MainDIR"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_MainDIR">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_MainDIRActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_LastExecuteDate">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="LastExecuteDate"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_Calendar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calendar file"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_LastExecuteDate">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_LastExecuteDateActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_Calendar">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_CalendarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_MasterScript">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_MasterScriptActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_ExecuteScript">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_ExecuteScriptActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_BatchExecuteSPSS">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_BatchExecuteSPSSActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_ResultAll">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_ResultAllActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_ResultByTestCode">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_ResultByTestCodeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_ExecuteScript">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ExecuteScript"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_MasterScript">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="MasterScript"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_ResultByTestCode">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ResultByTestCode"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_ResultAll">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ResultAll"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_BatchExecuteSPSS">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="BatchExecuteSPSS"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_Product">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Product"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_Product">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_ProductActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_BatchMasterSPSS">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="BatchMasterSPSS"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_BatchMasterSPSS">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_BatchMasterSPSSActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_BatchExecuteSPSS1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SPSSUsername"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_SPSSLogFile">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_SPSSLogFileActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_Product1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SPSSScriptFile"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_ExecuteScript1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SPSSHostName"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_SPSSScriptFile">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_SPSSScriptFileActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_SPSSUserName">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_SPSSUserNameActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_BatchMasterSPSS1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SPSSPortName"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_SPSSPassword">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_SPSSPasswordActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_SPSSPortName">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_SPSSPortNameActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_SPSSHostName">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_SPSSHostNameActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_ResultAll1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SPSSPassword"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_ResultByTestCode1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SPSSLogFile"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_Product2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="DBTableName"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_ResultByTestCode2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="DBName"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_ResultAll2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="DBPassword"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_BatchExecuteSPSS2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="DBUsername"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_BatchMasterSPSS2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="DBPortName"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelH_ExecuteScript2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="DBHostName"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_DBHostName">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_DBHostNameActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_DBPortName">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_DBPortNameActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_DBUsername">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_DBUsernameActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_DBPassword">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_DBPasswordActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_DBName">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_DBNameActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextField_DBTableName">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextField_DBTableNameActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="labelH_status1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="13" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Execute time :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label_excTime">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="15" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="66" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="00:00:00"/>
+      </Properties>
+      <Events>
+        <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="label_excTimePropertyChange"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
